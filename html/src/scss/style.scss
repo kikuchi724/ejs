@@ -1,0 +1,8 @@
+// リセットcss
+// bootstrapを使う場合はnomarize.cssが効くのでコメントアウトすること
+@import "././node_modules/sanitize.css/sanitize";
+
+// notoフォントを導入する場合は有効にする
+// fontsフォルダにサブセット化されたnotoフォントを展開する
+// https://pivot.qiita.com/mae_pivot/items/8758be6f8e774d698f0c#comment-0c0eafa5fd98ca08af93
+//@import "noto_fonts";

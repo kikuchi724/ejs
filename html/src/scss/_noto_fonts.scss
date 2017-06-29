@@ -1,0 +1,40 @@
+// 細字
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url('fonts/NotoSansCJKjp-Thin.eot'); /* IE9 Compat Modes */
+  src: local('NotoSansCJKjp-Thin'), /* local */
+    url('fonts/NotoSansCJKjp-Thin.eot?#iefix') format('embedded-opentype'), /* eof - IE6-IE8 */
+    url('fonts/NotoSansCJKjp-Thin.woff') format('woff'), /* woff - Modern Browsers */
+    url('fonts/NotoSansCJKjp-Thin.ttf')  format('truetype'), /* ttf - Safari, Android, iOS */
+    url('fonts/NotoSansCJKjp-Thin.svg#svgFontName') format('svg'); /* svg - Legacy iOS */
+}
+// 普通
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/NotoSansCJKjp-Regular.eot'); /* IE9 Compat Modes */
+  src: local('NotoSansCJKjp-Regular'), /* local */
+    url('fonts/NotoSansCJKjp-Regular.eot?#iefix') format('embedded-opentype'), /* eof - IE6-IE8 */
+    url('fonts/NotoSansCJKjp-Regular.woff') format('woff'), /* woff - Modern Browsers */
+    url('fonts/NotoSansCJKjp-Regular.ttf')  format('truetype'), /* ttf - Safari, Android, iOS */
+    url('fonts/NotoSansCJKjp-Regular.svg#svgFontName') format('svg'); /* svg - Legacy iOS */
+}
+// 太字
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/NotoSansCJKjp-Bold.eot'); /* IE9 Compat Modes */
+  src: local('NotoSansCJKjp-Bold'), /* local */
+    url('fonts/NotoSansCJKjp-Bold.eot?#iefix') format('embedded-opentype'), /* eof - IE6-IE8 */
+    url('fonts/NotoSansCJKjp-Bold.woff') format('woff'), /* woff - Modern Browsers */
+    url('fonts/NotoSansCJKjp-Bold.ttf')  format('truetype'), /* ttf - Safari, Android, iOS */
+    url('fonts/NotoSansCJKjp-Bold.svg#svgFontName') format('svg'); /* svg - Legacy iOS */
+}
+
+body {
+  font-family: 'Noto Sans Japanese';
+}

@@ -1,0 +1,31 @@
+<head>
+  <meta charset="UTF-8">
+  <% if (meta.title) { %>
+  <title><%= meta.title %> | Dummy</title>
+  <% } else { %>
+  <title>Dummy</title>
+  <% } %>
+  <meta name="description" content="<%= meta.desc %>">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1">
+
+  <meta property="og:title" content="サイト・アプリ収益化　|　Dummy">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http:/"dummy.co.jp/publisher/">
+  <meta property="og:image" content="http:/"dummy.co.jp/img/pic_logo.png">
+  <meta property="og:site_name" content="dummy">
+  <meta property="og:description" content="<%= meta.desc %>">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="./css/lib/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- 個別CSS -->
+  <% if (css) {  css.forEach(function (value, key) { %><link rel="stylesheet" href="<%= value %>"><% }); } %>
+
+  <!-- 共通JS -->
+  <script src="./js/lib/vendor/jquery-3.1.1.min.js"></script>
+  <script src="./js/common.js"></script>
+  <!-- 個別JS -->
+  <% if (js) {  js.forEach(function (value, key) { %><script src="<%= value %>"></script><% }); } %>
+
+</head>

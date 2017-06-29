@@ -1,0 +1,22 @@
+<%
+var meta = {
+  id: 'top',
+  desc:'このサイトの説明',
+};
+// 個別CSS
+var css = ['./css/lib/vendor/bootstrap.min.css','./css/lib/vendor/bootstrap.min.css']
+// 個別JS
+var js = ['./js/lib/vendor/jquery-3.1.1.min.js','./js/lib/vendor/jquery-3.1.1.min.js']
+ %>
+
+<!DOCTYPE html>
+<html lang="jp">
+<% include templates/_meta %>
+<body id="<%= meta.id %>">
+<% include templates/_header %>
+  <div id="sample">
+    <ul></ul>
+  </div>
+<% include templates/_footer %>
+</body>
+</html>
